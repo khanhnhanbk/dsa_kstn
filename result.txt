@@ -1,0 +1,90 @@
+Enter the number of points: 100
+
+
+THIS IS KD-TREE:
+Build time: 0.000331s
+
+Nearest point (0, 0, 0) is: (32.878 23.143 7.416 )
+Nearest point (50, 50, 50) is: (55.397 47.74 62.887 )
+Nearest point (99, 99, 99) is: (94.305 91.627 86.192 )
+
+Execution time: 0.000103s
+
+
+
+THIS IS HASHING:
+Build time: 0.000371 s
+Nearest point (0, 0, 0) is: (32.878 23.143 7.416 )
+Nearest point (50, 50, 50) is: (55.397 47.74 62.887 )
+Nearest point (99, 99, 99) is: (94.305 91.627 86.192 )
+
+Search time: 0.000341s
+
+=======================
+Enter the number of points: 1000
+
+
+THIS IS KD-TREE:
+Build time: 0.00301s
+
+Nearest point (0, 0, 0) is: (8.853 2.051 5.307 )
+Nearest point (50, 50, 50) is: (51.571 50.496 56.568 )
+Nearest point (99, 99, 99) is: (95.266 94.891 89.909 )
+
+Execution time: 0.000224s
+
+
+
+THIS IS HASHING:
+Build time: 0.003035 s
+Nearest point (0, 0, 0) is: (8.853 2.051 5.307 )
+Nearest point (50, 50, 50) is: (51.571 50.496 56.568 )
+Nearest point (99, 99, 99) is: (95.266 94.891 89.909 )
+
+Search time: 0.000107s
+
+=======================
+Enter the number of points: 100000
+
+
+THIS IS KD-TREE:
+Build time: 0.266187s
+
+Nearest point (0, 0, 0) is: (0.458 1.332 1.171 )
+Nearest point (50, 50, 50) is: (49.614 48.08 49.386 )
+Nearest point (99, 99, 99) is: (99.052 97.771 98.809 )
+
+Execution time: 0.000151s
+
+
+
+THIS IS HASHING:
+Build time: 0.244794 s
+Nearest point (0, 0, 0) is: (0.458 1.332 1.171 )
+Nearest point (50, 50, 50) is: (49.614 48.08 49.386 )
+Nearest point (99, 99, 99) is: (99.052 97.771 98.809 )
+
+Search time: 0.000759s
+
+=======================
+Enter the number of points: 1000000
+
+
+THIS IS KD-TREE:
+Build time: 3.12717s
+
+Nearest point (0, 0, 0) is: (0.366 0.314 1.009 )
+Nearest point (50, 50, 50) is: (49.29 49.908 49.324 )
+Nearest point (99, 99, 99) is: (99.748 99.173 98.466 )
+
+Execution time: 0.000153s
+
+
+
+THIS IS HASHING:
+Build time: 2.15245 s
+Nearest point (0, 0, 0) is: (0.366 0.314 1.009 )
+Nearest point (50, 50, 50) is: (49.29 49.908 49.324 )
+Nearest point (99, 99, 99) is: (99.748 99.173 98.466 )
+
+Search time: 0.00483s
